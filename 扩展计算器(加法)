@@ -1,0 +1,15 @@
+function superAdd(){
+    var len = arguments.length;
+    var result;
+
+    if(len){
+        result = 0;
+        for (var i = 0;i < len;i++){
+            result = result + arguments[i];
+        }
+    }
+    return result;
+}
+
+
+superAdd(1,2);
